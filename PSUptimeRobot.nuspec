@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>PSUptimeRobot</id>
+		<version>1.0.0</version>
+		<authors>Nathan Stohlmann</authors>
+		<owners>Nathan Stohlmann</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A PowerShell module for interacting with the Uptime Robot V2 API</description>
+		<releaseNotes></releaseNotes>
+		<copyright>Copyright 2017</copyright>
+		<tags>PowerShell UptimeRobot Uptime Robot REST API</tags>
+		<dependencies />
+	</metadata>
+	<files>
+		<file src="PSUptimeRobot.ps*" />
+		<file src="Functions\**\*.*" exclude="**\*.Tests.*" target="Functions" />
+		<file src="External\**\*.*" target="External" />
+	</files>
+</package>
