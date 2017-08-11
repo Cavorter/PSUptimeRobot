@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>PSUptimeRobot</id>
-		<version>1.0.0</version>
+		<version>0.0.1</version>
 		<authors>Nathan Stohlmann</authors>
 		<owners>Nathan Stohlmann</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -15,6 +15,6 @@
 	<files>
 		<file src="PSUptimeRobot.ps*" />
 		<file src="Functions\**\*.*" exclude="**\*.Tests.*" target="Functions" />
-		<file src="External\**\*.*" target="External" />
+		<file src="Enums\**\*.*" exclude="**\*.Tests.*" target="Enums" />
 	</files>
 </package>
